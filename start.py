@@ -50,7 +50,15 @@ def start_httpx():
 # Menü für den Benutzer, um httpx zu aktivieren oder zu deaktivieren
 def menu():
     while True:
-        print("\n--- Httpx Steuerung ---")
+        # XenexAi ASCII-Art Banner
+        print("""
+X   X EEEEE N   N EEEEE X   X     A    III
+ X X  E     NN  N E      X X     A A    I
+  X   EEEE  N N N EEEE    X     AAAAA   I
+ X X  E     N  NN E      X X   A     A  I
+X   X EEEEE N   N EEEEE X   X  A     A III
+""")
+        print("httpx-setting-tool v.01.0de \n\n--- Httpx Steuerung ---")
         print("1. httpx aktivieren")
         print("2. httpx deaktivieren")
         print("3. httpx starten")
@@ -72,3 +80,4 @@ def menu():
 
 if __name__ == '__main__':
     menu()
+
